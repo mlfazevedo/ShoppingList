@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap.css">    
+    </head>
+    <body>
+        <title>PW - Lista de Compras</title>
+        
+        <div class="jumbotron" align="center">
+            <h1>Lista de Compras</h1>  
+        </div>
+        <div class="container">            
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-sm-4">Quantidade:</label>
+                    <div class="col-sm-4">
+                        <input type="number" class="form-control" id="quantidade" placeholder="Introduza a respetiva quantidade">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-4">Nome:</label>
+                    <div class="col-sm-4">          
+                        <input type="text" class="form-control" id="nome" placeholder="Introduza o nome do produto">
+                    </div>
+                </div>
+                <div class="form-group">        
+                    <div class="col-sm-offset-4 col-sm-4">
+                        <button type="submit" onclick="return false" id="adicionar" class="btn btn-default">Adicionar</button>
+                        
+                    </div>
+                </div>
+           </form>
+        </div>
+        <form class="container">
+            
+                <h3>Compras</h3>
+                <hr>
+                <div id="compras"></div>
+            
+        </form>
+        <p></p>
+        <form class="container">
+            <h3>Arquivo</h3>
+            <hr>
+            <div id="arquivo" class=""></div>
+        </form>
+        
+        <script src="/js/app.js"></script>
+    </body>    
+</html>
+
