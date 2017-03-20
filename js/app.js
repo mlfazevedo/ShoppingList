@@ -169,4 +169,3 @@ function show(){
 
 
 document.getElementById("adicionar").addEventListener('click', add);
-show();
